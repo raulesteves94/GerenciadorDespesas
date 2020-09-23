@@ -14,6 +14,6 @@ namespace GerenciadorDespesas.Models
         [StringLength(50, ErrorMessage = "Use menos caracteres.")]
         [Remote("TipoDespesaExiste", "TipoDespesas")]
         public string Nome { get; set; }
-        public ICollection<Despesa> Despesas { get; set; }
+        public ICollection<Despesas> Despesas { get; set; }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GerenciadorDespesas.Models
 {
-    public class Despesa
+    public class Despesas
     {
         public int DespesaId { get; set; }
         public int MesId { get; set; }

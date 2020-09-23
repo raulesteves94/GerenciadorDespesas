@@ -9,7 +9,7 @@ namespace GerenciadorDespesas.Models
     {  
         public int MesId { get; set; }
         public string Nome { get; set; }
-        public ICollection<Despesa> Despesas { get; set; }
+        public ICollection<Despesas> Despesas { get; set; }
         public Salarios Salario { get; set; }
     }
 }
