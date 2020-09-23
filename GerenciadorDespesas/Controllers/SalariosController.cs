@@ -117,9 +117,6 @@ namespace GerenciadorDespesas.Controllers
             return View(salario);
         }
 
-        // GET: Salarios/Delete/5
-       
-
         // POST: Salarios/Delete/5
         [HttpPost]
         public async Task<IActionResult> Delete(int id)

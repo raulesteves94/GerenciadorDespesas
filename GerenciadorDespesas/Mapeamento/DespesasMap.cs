@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace GerenciadorDespesas.Mapeamento
 {
-    public class DespesasMap : IEntityTypeConfiguration<Despesa>
+    public class DespesasMap : IEntityTypeConfiguration<Despesas>
     {
-        public void Configure(EntityTypeBuilder<Despesa> builder)
+        public void Configure(EntityTypeBuilder<Despesas> builder)
         {
             builder.HasKey(d => d.DespesaId);
             builder.Property(d => d.Valor).IsRequired();
